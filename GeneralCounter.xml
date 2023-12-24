@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCounter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DailyTotal>00000000000</DailyTotal>
+  <ReceiptNumber>000000124</ReceiptNumber>
+  <Refund>00000000000</Refund>
+  <ZReport>0342</ZReport>
+  <GrandTotal>0000000052719600</GrandTotal>
+  <FiscalRec>0000</FiscalRec>
+  <FiscalRecVoid>000000000</FiscalRecVoid>
+</GeneralCounter>

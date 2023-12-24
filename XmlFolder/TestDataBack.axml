@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="Demo" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="checkRtStatus"        repeat="1" />
+<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="checkRtStatus"        repeat="1" />
+<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+</command_list>
+

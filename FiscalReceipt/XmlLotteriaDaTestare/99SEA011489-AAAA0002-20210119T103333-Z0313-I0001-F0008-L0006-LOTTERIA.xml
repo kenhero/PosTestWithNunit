@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r:DocCommercialiLotteria xmlns:r="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/doccommercialilotteria/v1.0" versione="1.0">
+<DatiTrasmissione>
+<Formato>DCL10</Formato>
+<Denominazione> Test Lottery Cami </Denominazione>
+<IdCassa>AAAA0002</IdCassa>
+</DatiTrasmissione>
+	<DocumentoCommerciale>
+		<IdCliente>SQ2OD10L</IdCliente>
+		<DataOra>2021-01-19T10:22:00</DataOra>
+		<NumeroProgressivo>0313-0001</NumeroProgressivo>
+		<Ammontare>17.84</Ammontare>
+		<Vendita>
+			<DatiPagamento>
+				<Tipo>NR</Tipo>
+				<Importo>5.50</Importo>
+				<Tipo>PC</Tipo>
+				<Importo>12.34</Importo>
+			</DatiPagamento>
+		</Vendita>
+	</DocumentoCommerciale>
+
+	<DocumentoCommerciale>
+		<IdCliente>SQ2OD10L</IdCliente>
+		<DataOra>2021-01-19T10:24:00</DataOra>
+		<NumeroProgressivo>0313-0002</NumeroProgressivo>
+		<Ammontare>35.00</Ammontare>
+		<Vendita>
+			<DatiPagamento>
+				<Tipo>PE</Tipo>
+				<Importo>30.00</Importo>
+				<Tipo>NR</Tipo>
+				<Importo>5.00</Importo>
+			</DatiPagamento>
+		</Vendita>
+	</DocumentoCommerciale>
+
+	<DocumentoCommerciale>
+		<IdCliente>12345678</IdCliente>
+		<DataOra>2021-01-19T10:25:00</DataOra>
+		<NumeroProgressivo>0313-0003</NumeroProgressivo>
+		<Ammontare>27.50</Ammontare>
+		<Vendita>
+			<DatiPagamento>
+				<Tipo>PE</Tipo>
+				<Importo>27.50</Importo>
+			</DatiPagamento>
+		</Vendita>
+	</DocumentoCommerciale>
+
+	<DocumentoCommerciale>
+		<IdCliente>87654321</IdCliente>
+		<DataOra>2021-01-19T10:25:00</DataOra>
+		<NumeroProgressivo>0313-0004</NumeroProgressivo>
+		<Ammontare>25.61</Ammontare>
+		<Vendita>
+			<DatiPagamento>
+				<Tipo>PC</Tipo>
+				<Importo>25.61</Importo>
+			</DatiPagamento>
+		</Vendita>
+	</DocumentoCommerciale>
+
+	<DocumentoCommerciale>
+		<IdCliente>25814736</IdCliente>
+		<DataOra>2021-01-19T10:28:00</DataOra>
+		<NumeroProgressivo>0313-0005</NumeroProgressivo>
+		<Ammontare>60.34</Ammontare>
+		<Vendita>
+			<DatiPagamento>
+				<Tipo>PE</Tipo>
+				<Importo>40.34</Importo>
+				<Tipo>NR</Tipo>
+				<Importo>7.00</Importo>
+				<Tipo>PC</Tipo>
+				<Importo>13.00</Importo>
+			</DatiPagamento>
+		</Vendita>
+	</DocumentoCommerciale>
+
+	<DocumentoCommerciale>
+		<IdCliente>SQ2OD10L</IdCliente>
+		<DataOra>2021-01-19T10:32:00</DataOra>
+		<NumeroProgressivo>0313-0008</NumeroProgressivo>
+		<Ammontare>17.84</Ammontare>
+		<ResoAnnullo>
+			<Tipologia>R</Tipologia>
+			<DataOra>2021-01-19T00:00:00</DataOra>
+			<Progressivo>0313-0001</Progressivo>
+			<Dispositivo>
+				<MatrTrasm>99SEY011489</MatrTrasm>
+				<MatrCassa>AAAA0002</MatrCassa>
+			</Dispositivo>
+		</ResoAnnullo>
+	</DocumentoCommerciale>
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>xDtTpU1MQEW2lO6JxZvSndvr5c4N45pLm4mSMM9pLQY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>b3Mp6jbjQIrBo050wzT07YjBs7xXXdsn6vbAbUV69CZgxtjTi/0YiIJF5+j9knEl
+dQC6jsgH37Gz5DTjvT6qUVFaMcZJqFFgnaT1SKeEFKUP5clWIYC62rw4SMeumLqe
+wmuPHbCR+lSiPZ48/ZCn3/DUBtzZqG7EbpHhA8KR3XktPiF/Zg+TWPemcWnH+thQ
+snKC3HAlI+1KqrIHmtFFqjx8LX36AV0oFsTjDp0Rb4THB5oga9VuON4hF/mPaHg1
+ivRkzco0hEMfVL0xJX17T0YEFd4mw2MvraHpLn7CvxGlFZ3IEIpWnGRJ/Biabwe8
+eO1kSRvXIIW2iv5mVxN+Ig==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIID5zCCAs+gAwIBAgIIbtrhURJxUGkwDQYJKoZIhvcNAQELBQAwNTELMAkGA1UE
+BhMCSVQxDjAMBgNVBAoTBVNvZ2VpMRYwFAYDVQQDEw1DQSBTb2dlaSBUZXN0MB4X
+DTE4MDIyNTIxMTg0N1oXDTIxMDIyNTIxMTg0N1owazELMAkGA1UEBhMCSVQxHjAc
+BgNVBAoMFUFnZW56aWEgZGVsbGUgRW50cmF0ZTEmMCQGA1UECwwdU2Vydml6aW8g
+QUUgQ29ycmlzcGV0dGl2aSBJVkExFDASBgNVBAMMCzk5U0VBMDExNDg5MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnqvoOH7dJ0BJ7Sk6Kmzu32Tn4JKd
+ophC1aj6ZeINw0VB2sTsB7EqX5qFb+pRBJekjBawo5g8o510GfSceQzKX8Wk/RlV
+1hLcGVNx6jK2POOoygPJ56w32iXJxm9tFcPWlCgnaLxkAq2gkMzyCfjm5LwVUe1f
+71hoBMKR6gFEhUk2Pw2Bk+vmr+AdriUyRyU0wmGtEbHflmpK32sOejb2IGhyewbP
+l3jhzNKccezCzc/mHKklTDy8GjjrTR71T/3U+0JvOp4eemCTBrwyDVeGvfozg0gO
++cNtPKyVTW3izMHUmWd7TdipzYWXfnHiNRq+2CdSTDXnNTuT1cCoENIF+wIDAQAB
+o4HEMIHBMB8GA1UdIwQYMBaAFFfDfM0VomETCms+4cZJ7E5DH8OHMG8GA1UdHwRo
+MGYwZKBioGCGXmxkYXA6Ly9jYWRzLnNvZ2VpLmZpbmFuemUuaXQvY24lM2RDQSUy
+MFNvZ2VpJTIwVGVzdCxvJTNkU29nZWksYyUzZGl0P2NlcnRpZmljYXRlUmV2b2Nh
+dGlvbkxpc3QwHQYDVR0OBBYEFOhmokGcZX0kyuml1ZsYwoPE+FehMA4GA1UdDwEB
+/wQEAwIGQDANBgkqhkiG9w0BAQsFAAOCAQEAOo2lvsfhVapdCFTBc+231YpqsED/
+jXe3YC+pRH2q8rkTFYx8Zv1MfKeydA5xgY2mDwFRvp4IGKFU1AZj/5q4OtzXNtlK
+rheqVy9gXqlyeHgeZbG6l/yaSzrPfLZhJ0pFx2jLIKuznlodavWOCs3NKNsJsOjJ
+V6Do2C9t1Wb3VSNu8ZKWzkHH8vnw9h08MTtZB/Fjieek8b47dYJ0KhWnTmLK7eVz
+H3puq+Auq8Pq/0RyEnrt1++N+n0ntWpq0BfUNPPs+YvzX97RojxPl498jKfq83xl
+S7dhCiTUi0/u482zFEZVD6I+TGIOapPsuDMaFLLP7Hogb5KuLPr/HPuymg==</X509Certificate>
+<X509IssuerSerial>
+<X509IssuerName>CN=CA Sogei Test,O=Sogei,C=IT</X509IssuerName>
+<X509SerialNumber>7987944627413012585</X509SerialNumber>
+</X509IssuerSerial>
+</X509Data>
+</KeyInfo>
+</Signature></r:DocCommercialiLotteria>

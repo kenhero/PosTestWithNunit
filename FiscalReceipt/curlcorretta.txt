@@ -1,0 +1,7 @@
+
+
+curl -XPOST -k  --header 'Content-Type: application/xml' --tlsv1.2 --cacert G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\CAAgenziadelleEntrateTest.cer --header 'Accept: application/xml' 'https://v-apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/' --data-binary @G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\testFrancesco.xml --verbose --output G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\signed.xml --progress-bar
+
+Curl trovato nel pdf cutover per mandare un xml:
+
+curl -H "Content-Type: application/xml" --tlsv1.2 --cacert CAEntrate.cer https://apidivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/ --data-binary @99SEA00202920181212T192306-0038-02170001-CORRISP.xml 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="method_list.xsd">
+     <Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+    	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="SetEmailParam" var1="smtp" var2="smtp.libero.it"  var3="465"  var4="b_vittorino@libero.it"  var5="L-ej5bFQft7me3B"  var6="b_vittorino@libero.it" var7="b_vittorino@libero.it"         var8="b_vittorino@libero.it" var9="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="SendFiscalDocViaEmail" var1="1" var2="00"  var3="b_vittorino@libero.it"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="GetEmailParam" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+</command_list>
+

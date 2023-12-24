@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2999" var2="0001" var3="021219" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2999" var2="0002" var3="021219" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2998" var2="0001" var3="021219" var4=" " var5=" " repeat="1" />
+</command_list>

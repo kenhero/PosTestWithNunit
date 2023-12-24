@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="111219" var3="00000001" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="141019" var2="00" var3=" " var4=" " repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="151119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="201119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="211119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="251119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="261119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="271119" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="101219" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="111219" var2="00" var3=" " var4=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121219" var2="00" var3=" " var4=" " repeat="1" />
+
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="SendLotteryCode"  var1="ABCDEFGN" var2="01" repeat="10" />
+</command_list>

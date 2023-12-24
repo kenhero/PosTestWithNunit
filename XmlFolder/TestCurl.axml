@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">     <Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SendXML2" var1="99IEB000204-20200721T154230-0040-CORRISP.xml"  repeat="1" />
+</command_list>

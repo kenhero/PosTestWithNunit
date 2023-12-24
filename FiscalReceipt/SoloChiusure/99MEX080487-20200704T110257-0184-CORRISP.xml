@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r:DatiCorrispettivi xmlns:r="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0" versione="COR10"><Trasmissione><Progressivo>184</Progressivo><Formato>COR10</Formato></Trasmissione><DataOraRilevazione>2020-07-04T11:02:57</DataOraRilevazione><DatiRT><Riepilogo><Natura>N4</Natura><Ammontare>0.00</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo><Riepilogo><IVA><AliquotaIVA>22.00</AliquotaIVA><Imposta>0.00</Imposta></IVA><Ammontare>0.00</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo><Riepilogo><IVA><AliquotaIVA>10.00</AliquotaIVA><Imposta>245.18</Imposta></IVA><Ammontare>2451.82</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo><Riepilogo><IVA><AliquotaIVA>4.00</AliquotaIVA><Imposta>0.00</Imposta></IVA><Ammontare>0.00</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo><Riepilogo><IVA><AliquotaIVA>5.00</AliquotaIVA><Imposta>0.00</Imposta></IVA><Ammontare>0.00</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo><Riepilogo><Natura>N2</Natura><Ammontare>49.60</Ammontare><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli></Riepilogo></DatiRT><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>kvsh/WaCT3QAV8hZ3inhHJVEkPMSJrg3gkmOVTX+hSY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>m6ORNmvcQ+BQLFbS5uMV9t7RuXEiLhhXwO6QgE+dPF7pt3Gw3yIuPQfQsi8D2Tn7
+XQk7HWbcfTSawlg62pwrJb/BMtdCC3FbE9rz108nIsZXuErr2u+cDzfx/bl7lZTe
+UKBY8g545dIFTVyoTrTS4nusMxRZnQ0CF2PxAFcMXOiRfdr+69GhY9NdIPV2gKut
+dDM8vxhUw4hKFrrTjmnT/jGHToXWeAlP+qClwWL+soIcJaB7aH3E3boaD9/AKDyz
+ne/iKFsekto+UpPlpdJMXeN4ndee5XNzR3k1pK1vJ3C10V3Z2JZHRbh8xRFBANJd
+j4qskJEhi4NrjawfT3FZnw==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIEwDCCAqigAwIBAgIIQzTOBlDfnQgwDQYJKoZIhvcNAQELBQAwgYAxCzAJBgNV
+BAYTAklUMR4wHAYDVQQKDBVBZ2VuemlhIGRlbGxlIEVudHJhdGUxJjAkBgNVBAsM
+HVNlcnZpemlvIEFFIENvcnJpc3BldHRpdmkgSVZBMSkwJwYDVQQDDCBDQSBTZXJ2
+aXppbyBBRSBDb3JyaXNwZXR0aXZpIElWQTAeFw0xOTA4MjMxMjI0MjJaFw0yNzA4
+MjMxMjI0MjJaMGsxCzAJBgNVBAYTAklUMR4wHAYDVQQKDBVBZ2VuemlhIGRlbGxl
+IEVudHJhdGUxJjAkBgNVBAsMHVNlcnZpemlvIEFFIENvcnJpc3BldHRpdmkgSVZB
+MRQwEgYDVQQDDAs5OU1FWDA4MDQ4NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAPCXF3ultdalN+EqpCiov2xEwyppn1o8dQBrElI4DZPZa6+nfjy03QCb
+3B0T38hA742AAVU6S0BfOlSjD/o2BAOz8BMFGlpap17zDXfx1GQVI34VKRoFQH4m
+fQRohTR6mtfnlpXuhQeANt3BsZJQz/GuB8TS3rIpujBBGMnSVLAA7y32+n2afRg2
+qRHY9Ckq4+9q9BukQnensv0U2LSfW/9MlNB1Ds//Mpc3Xwp13FdoEg3zu4Ahte5m
+MYrBmDc6/+v0V8tsZyFjw+55LSa2ez7/54GxU3xWtiSQ3ZcrgV3KT6PYQUavG/Cn
+AUmpz1IIfGB8uZ+kCSBo6Jcv+Pd+IW8CAwEAAaNSMFAwHwYDVR0jBBgwFoAUi7cV
+jwa/Yu+xv0v/BGNkizHeE0YwHQYDVR0OBBYEFPnAFbTe+U6Ar3bJhJ9mW090erCA
+MA4GA1UdDwEB/wQEAwIGQDANBgkqhkiG9w0BAQsFAAOCAgEAAgDptHfVI+uFGzof
+oVcZu2zzUZQiUhkH+7baiR9j31wMiWqoq4kgG46wPwSq+eZL5woLPMdvGnnqR0Sz
+4XIOTjasRBHJ8ZdaGjLZbsxJru7DKawKMYb4jhRxNnrsA8qYfXM7uhdnrI+iqHc1
+xpuTfA2FOKOFsyukq0gWkm+ruNnr9AgksWhV+v0SthCR7phDv5otGE+sUo+ZZn9q
+bK+lMsc2HgbTq5gdx+xY1DvESqBhI48hUpegzAxbIZ5i+dN4TPGVJORgG6/00Ryc
+bp+wnaz7cvYaDEsZgMVZQHn+Fk4U1ClBGZB29010hRR8SITq76s13YmPfIQjBgb0
+FAM1YjdWmhuCHEzdi3pCePaOd6ACFhGNY48l7bIC5wt83+5sa13pIA9bxBsyJVGc
+plqah413XIb+D+F2TZP95GMxXOQrfc+q8zyTTSpzd9YsZqpH0nFm0muvqd6ddYV6
+qq7PoX9gxS3WWLJQwD9nXJsYhTSSb8mrSLgOEPTzPLz7gHORUJ6w5DMnXXVuWVr7
+8STjHzrdbcZAmTdrEgrGFYteTVm1YFlxdP2T8NRnaYPua50Oi3KytUmWa4VYb/5d
+8g6KAkP4in3BKBXXFLGB7muOwbj/uw7qm6izK4hO1rqFtGtzMvP/dYcvJ4rMrJKf
++RXds8ijlp7EopEcd6iODUWyfpo=</X509Certificate>
+<X509IssuerSerial>
+<X509IssuerName>CN=CA Servizio AE Corrispettivi IVA,OU=Servizio AE Corrispettivi IVA,O=Agenzia delle Entrate,C=IT</X509IssuerName>
+<X509SerialNumber>4842722025852083464</X509SerialNumber>
+</X509IssuerSerial>
+</X509Data>
+</KeyInfo>
+</Signature></r:DatiCorrispettivi>

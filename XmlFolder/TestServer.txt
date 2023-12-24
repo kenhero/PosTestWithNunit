@@ -1,0 +1,14 @@
+FiscalReceipt.Library.FiscalReceipt,FiscalReceipt
+initFiscalDevice
+FiscalPrinter
+1
+
+FiscalReceipt.Library.FiscalReceipt,FiscalReceipt
+resetPrinter
+1
+
+FiscalReceipt.Library.Server,FiscalReceipt
+ServerMulticassa
+3
+1
+

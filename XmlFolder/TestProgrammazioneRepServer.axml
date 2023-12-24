@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="closeFiscalDevice" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetAtecoCodeServer" var1="1" var2="000000" var3="0" var4="2020" repeat="1" />
+	
+
+
+
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="01" var2="00" var3="01" var4="0" var5="Bene  01" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="02" var2="00" var3="02" var4="0" var5="Bene  02" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="03" var2="00" var3="03" var4="0" var5="Bene  03" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="04" var2="00" var3="00" var4="0" var5="Bene  04" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="05" var2="00" var3="10" var4="0" var5="Bene  05" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="06" var2="00" var3="11" var4="0" var5="Bene  06" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="07" var2="00" var3="12" var4="0" var5="Bene  07" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="08" var2="00" var3="13" var4="0" var5="Bene  08" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="09" var2="00" var3="14" var4="0" var5="Bene  09" repeat="1" />
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="10" var2="00" var3="01" var4="1" var5="Servizio  10" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="11" var2="00" var3="02" var4="1" var5="Servizio  11" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="12" var2="00" var3="03" var4="1" var5="Servizio  12" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="13" var2="00" var3="00" var4="1" var5="Servizio  13" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="14" var2="00" var3="10" var4="1" var5="Servizio  14" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="15" var2="00" var3="11" var4="1" var5="Servizio  15" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="16" var2="00" var3="12" var4="1" var5="Servizio  16" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="17" var2="00" var3="13" var4="1" var5="Servizio  17" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="SetDepParEmbeddedServer" var1="18" var2="00" var3="14" var4="1" var5="Servizio  18" repeat="1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+     	<Command
+Class="FiscalReceipt.Library.Server,FiscalReceipt" 
+Method="ServerMulticassa" var1="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="closeFiscalDevice" repeat="1" />
+</command_list>
+	

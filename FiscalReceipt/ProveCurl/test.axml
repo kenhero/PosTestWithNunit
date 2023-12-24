@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r:DatiCorrispettivi xmlns:r="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0" simulazione="true" versione="COR10"><Trasmissione><Progressivo>12345</Progressivo><Formato>COR10</Formato></Trasmissione><DataOraRilevazione>2018-05-17T13:11:35</DataOraRilevazione><DatiRT><Riepilogo><IVA><AliquotaIVA>4.00</AliquotaIVA><Imposta>1.86</Imposta></IVA><Ammontare>48.08</Ammontare><ImportoParziale>46.47</ImportoParziale><Totali><NumeroDocCommerciali>1</NumeroDocCommerciali><PagatoContanti>0.00</PagatoContanti><PagatoElettronico>0.00</PagatoElettronico></Totali></Riepilogo></DatiRT><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>CMrQ/AZ4vkAjuRgXMvRntCf8jnT/jj8o5elF6E6h9Lk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>ekUyQp1OZUNfDNP+egL1Ps0IzfMGTglNX0/hnJmBfe5G8VEBMorG6gXSa3QWTuTr
+kodh25EE4AmGy2y624riG0muvyITamr+wDecgSEANzXDEz1BMkhGNIhJ3mz4alZu
+KFzHMMhXhx7Rz9XfoPaLEgGTw8LVaKbEdNXlwF7Vjx2syoyan+8PuIzzcMeYeTHa
+zhwx/KA4HyUT2fu3HUFyxQRZGZDfu3swnUk1Jd0v9XodKre1jkG5X0ZtLZdZ5uA3
+KKFarQ5nrwoRdC1qaEQe1akP4oINNCmPMaZBg//htORJJz2PDeWYn5m01BUtdx8E
+jpT8a3/R8RglFhJXD2G4Cg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIFBzCCAu+gAwIBAgIIJapxfnKrJdswDQYJKoZIhvcNAQELBQAwSjELMAkGA1UE
+BhMCSVQxDjAMBgNVBAoMBVNvZ2VpMSswKQYDVQQDDCJTb2dlaSBDZXJ0aWZpY2F0
+aW9uIEF1dGhvcml0eSBUZXN0MB4XDTIwMDEwMjExMzEyNloXDTIzMDEwMjExMzEy
+NlowazELMAkGA1UEBhMCSVQxHjAcBgNVBAoMFUFnZW56aWEgZGVsbGUgRW50cmF0
+ZTEmMCQGA1UECwwdU2Vydml6aW8gQUUgQ29ycmlzcGV0dGl2aSBJVkExFDASBgNV
+BAMMCzk5TUVZMDAwMDU5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+w3PdJmacNXTNK1GgyKx9nHzZOlyOP8mQbCBCy+xDNjsmBin9k9UF4igejEsnpUjf
+Y0EYj2JmDwNLEtrRz7Dg9kFqz8nyAUKSOrKcGYjuJKcwLfsBdMKJsrO8V39r9Mc8
+H3sBvDbuvUqUzKWpKlTKPti8284xqfIO5c2hxWwxx+6xasXvLQS1FuzZX8oOJv8A
++RLQLhyD3BygH2miXkn1TB2svH2OfZM0fUXI8OVIESmAg0YKJPhzDwtMAB4ZZ//i
+GOfUgA85NfGDg+y6FaXsmn51Xbq94pa6khyPt3UF+/HHkEnm29NtD9kG7OQJkuAi
+mZEy+RAQJWm8hICi+bRrwQIDAQABo4HPMIHMMB8GA1UdIwQYMBaAFMaWUxWzFxt5
+oxJm7crW9EFVNPEhMHoGA1UdHwRzMHEwb6BtoGuGaWxkYXA6Ly9jYWRzLmZpbmFu
+emUuaXQvQ049U29nZWklMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5JTIwVGVz
+dCxPPVNvZ2VpLEM9SVQ/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDAdBgNVHQ4E
+FgQUzY59fsEzCOyRPOqHF/B1GLDFGG8wDgYDVR0PAQH/BAQDAgZAMA0GCSqGSIb3
+DQEBCwUAA4ICAQArwfm0ShXr+FD9mkhohV7jHJ++yr+KEuY+YnuZOqQFBRTY4GIb
+BxwBFDbz4lC/irdTj5e2oLm55DhXNt30X7afJtiWo90E95YF0S+o/ptmnOCba+xx
+MpHBovDy8gkbGZXYmhwSjqq+EP6+yHQGrS7bFSw1/r0xEQXxV2ZxHqiyhf8Thrme
+8mGOyUX5kYENEyFCXLwXcn2VuKPT5N3UFdk3M7JvwBHv87lDaICLbdqxpWRMLob6
+G7wcw3BIwkRGYczbi8NnAzwZyDamp85qwLdOZTom8I4hzim1EC4YCgIR3kmwbH0n
+VgINPhuzRCp++ByZyPZDvmoaZnHcnjhNrcdcBpBdOFeiC9kabbvn1P9CSsype5Tx
+RMF1GPetklUP9qT3K7vL9N9fNwz7z1k1X2huYujuT7d2cmPxgIAcI/Uu84t/EwN+
+5zXysJdw/O1Zk8jnPkAYSHZMX5UPYovtb/fjNifkboIt+SMokw++KxFpXHQN7l9d
+F9i9awtmr7qAD4rWLxr7LokQXXhrtMAh6aS92tkgK2Tkigl5cXK/jkfO8mVFyLUz
+9wta4tzEeaEgnAikv6oVch/lFhDYchU2h6NFYIULBoQ0KTsZy/EoQf5Tbs1I9kSx
+GARxtVHPja8/eGO3CaFB6bTcZpksI9/8yfmR71wOdWydgw5FYzqGS0bMFg==</X509Certificate>
+<X509IssuerSerial>
+<X509IssuerName>CN=Sogei Certification Authority Test,O=Sogei,C=IT</X509IssuerName>
+<X509SerialNumber>2714106513347782107</X509SerialNumber>
+</X509IssuerSerial>
+</X509Data>
+</KeyInfo>
+</Signature></r:DatiCorrispettivi>

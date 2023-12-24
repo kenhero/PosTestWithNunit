@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="0090" var2="0001" var3="00000000" var4="140920" var5="00" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="3173" var2="0016" var3="210220" var4="01" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="3173" var2="0017" var3="220220" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="3173" var2="0017" var3="220220" var4="01" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrino del 12 novembre quando i doc erano formattati male -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2336" var2="0001" var3="121119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrino data nel futuro -->
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2414" var2="0001" var3="151119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrino data nel futuro -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2414" var2="0008" var3="151119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrino Inesistente -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2414" var2="0009" var3="151119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrini buoni ma senza risposta del server -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0002" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0003" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0004" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0005" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0006" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrini SE, data nel futuro errore 307  -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0007" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0008" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0009" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0010" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!-- Scontrino inesistente  -->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="2836" var2="0011" var3="271119" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="SendLotteryCode"  var1="ABCDEFGN" var2="01" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1=" " var2=" " var3=" " var4="00" var5="01" var6=" " var7=" "  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	</command_list>

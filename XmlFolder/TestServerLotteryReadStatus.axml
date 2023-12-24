@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="method_list.xsd">
+     	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="LotteryFolderSentParser" var1="G:\Server\XmlPerServer\Appoggio\dati-rt\20200509/99SEA000028-AAAA0001-20200511T112000-Z0041-I0001-F0003-L0003-LOTTERIA.xml"  var2= " " repeat="1" />
+<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" Method="LotteryFolderResponseParser" var1="G:\Server\XmlPerServer\Appoggio\dati-rt\20200509/99SEA000028-AAAA0001-20200509T040634-Z0039-I0002-F0004-L0003-LOTTERIAESITO-SE-8471bdaa-8a78-4e6b-b8ed-dfc864aaac8c.xml"   repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+</command_list>
+

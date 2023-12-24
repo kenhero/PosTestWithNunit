@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="ZReport"         repeat="1" />
+     	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="SetFirmwareUpgradeRepository" var1="0" var2="https://www.alpenpalace.com/(cms)/media/deliver/attachment/2063653.mot" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="SetFirmwareUpgradeRepository" var1="1" var2="https://www.alpenpalace.com/(cms)/media/deliver/attachment/2063647.sig" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ActivateFirmwareUpgrade" var1="CHCFNC64E01L117XIT04210780963epson    
+epson     0E037680593F        07.009241" repeat="1" />
+
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ActivateFirmwareUpgrade" var1="CHCFNC64E01L117XIT04210780963epson    
+epson     0E027680593F        07.009241" repeat="1" />
+
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ActivateFirmwareUpgrade" var1="CHCFNC64E01L117XIT04210780963epson    
+epson     0E017680593F        07.009242" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ActivateFirmwareUpgrade" var1="CHCFNC64E01L117XIT04210780963epson     epson     00007680593F        07.009241" repeat="1" />
+
+		<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ReadFirmwareUpgradeRepository" var1="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Licence,FiscalReceipt" 
+Method="ReadFirmwareUpgradeRepository" var1="" repeat="1" />
+</command_list>

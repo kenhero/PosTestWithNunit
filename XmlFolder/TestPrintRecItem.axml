@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="checkRtStatus"        repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="BeginFiscalReceipt"        var1="true" repeat="1" />
+  	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" Method="TestPrintRecItem"
+var1="Nike" var2="10000" var3="10000" var4="1" var5="100000" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="MF" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="BeginFiscalReceipt"        var1="true" repeat="1" />
+  	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" Method="TestPrintRecItem"
+var1="Nike" var2="10000" var3="10000" var4="2" var5="100000" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="closeFiscalDevice" repeat="1" />
+  </command_list>
+

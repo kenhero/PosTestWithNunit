@@ -1,0 +1,104 @@
+Tipo di scontrino:
+
+1)Vendita Beni Pagamento NR Bene non consegnato (esempio 1) e Vendita Beni Pagamento NR Bene CONSEGNATO (esempio 2)
+
+ALIQUOTA 22% 
+
+165.65 euro al 22%
+10.65 sconto al 22%
+
+Quindi avrei una imposta di 165.65 / 1.22 = 28.97. Nello scontrino Giorgio mette:
+
+
+AMMONTARE di 122.95 che corrisponde ad 150 / 1.22 quindi sottrae lo sconto di 10.65 e non ci calcola l'iva sullo sconto. OK
+
+26.15 di imposta (che corrisponde ad un lordo di 145, non torna il conto, sarà errato? Secondo me si )
+NOTA: E' GIUSTO, SPIEGAZIONE:
+ Quando il pagamento è non riscosso (cioè manca del danaro alla somma totale) e il BENE E' NON CONSEGNATO SI FA:
+ a)Si spalma la parte rimanente (10 euro in questo caso) sulle 3 aliquote ossia 22% , 4% , ES:
+ b)La suddivisione è proporzionale al lordo per ogni aliquota quindi , in questo caso:
+	150/300 = 50% (10 euro) . Dei 10 euro rimanenti si spalma 5 euro nell' aliquota al 22% che è pari a 4.1 di IMPOSTA
+	 50/300 = 1/6 = 0,16666 (10 euro) = 1.66 euro. Di questo ,con aliquota al 4% , mi calcolo la IMPOSTA che è = 1.6 euro
+	100/300 = 1/3 = 0.333 (10 euro) = 3.33. Di questo, con aliquota ES, mi calcolo la IMPOSTA = 3.33
+ c)Questi 3 valori vanno a riempire il campo "BeniInSospeso"
+ d)il campo IMPOSTA si calcola come [LORDO - "spalmatura non riscosso" (5 euro per 22%, 1.66 per 4% e 3.33 per ES)/ (1 + Aliquota)] - LORDO
+ E)iL campo AMMONTARE si calcola come se non ci fosse il non riscosso, quindi normalmente senza la spalmatura
+Dovrebbe essere di 122.95 di AMMONTARE e 27.05 di IMPOSTA, come è il secondo scontrino!!!NO
+
+DOMANDA: Dello sconto di 10.65 euro non c'è traccia nell' XML? E' corretto??? SI (andrea)
+
+NOTA imp: I due scontrini sono uguale eccetto per una voce in fondo (e quindi fuori dallo scontrino) BNC = Bene Non Consegnato , in un
+caso, e niente nel secondo caso. Discutibile
+
+
+2)Scontrino 3, Vendita Servizi Pagamento Ticket
+Note:
+a)E' uguale allo scontrino 1 (perchè 10 euro di ticket è equivalente a 10 euro non riscossi, la voce nello scontrino è appunto
+non riscossi per cui:
+b)Si spalma la cifra mancante (sempre 10 euro) in proporzione ai lordi ma in questo caso la voce non andrà a riempire il Tag
+"BeniInSospeso" bensì il Tag "NonRiscossoServizi"!!!
+
+3)Vendita di Servizi/Beni Seguirà Fattura (in pratica non riscosso tutto lo scontrino)
+Note:
+In questo caso l'Imposta per ogni aliquota IVA è sempre 0 e il netto si calcola normalmente
+
+
+4)Vendita di Servizi/Beni + OMAGGIO 
+Nota: L'IVA si paga sull' omaggio, Quindi "Imposta" e "Ammontare" si pagano sul totale bene + omaggio.
+Il netto dell' omaggio invece andrà messo nel tag "NonRiscossoOmaggio"
+
+
+5)Vendita di Servizi/Beni +Sconto a Pagare  (Esempio 6)
+Nota: L'imposta e l'ammontare si paga indipendentemente dallo Sconto a Pagare, cioè l'IVA si paga sul tutto.
+Viene stampata la voce "Sconto a Pagare" a cui corrisponde il Tag Xml "ScontoAPagare" dento il Tag "Totali"
+
+
+6)Vendita di Beni Bene - Consegnato - RiF al primo scontrino  Vendita Beni Pagamento NR Bene non consegnato (esempio 1)
+I 10 euro sono quelli spalmati sul primo scontrino (quelli cioè mancanti del pagamento non riscosso)nello stesso modo per cui:
+	a)5 euro ad aliquota 22% , 4.1 di "Ammontare" , 4.1 di "ImportoParziale" e 0.90 di "Imposta"
+	b)1.66 euro ad aliquota 4%, per cui 1.66 di "ammontare" , 1.66 di "ImportoParziale", 0.06 di "Imposta"
+	c)3.33 euro ad aliquota 0%(ES) per cui 3.33 di "ammontare" , 3.33 di "ImportoParziale", 0 di "Imposta"
+
+Tag "PagatoContanti" va a riempire la voce del pagato, ossia dei 10 euro
+
+7)Vendita di Servizi/Beni + arrotondamento (per difetto)
+Sullo scontrino l'arrotondamento figura come voce "Sconto a pagare" per cui verrà indicato nell'apposita sezione
+"ScontoApagare" nel Tag Totali.
+L'IVA pero' si calcola su tutto l'ammontare.
+
+8)Vendita di Servizi/Beni + arrotondamento (per eccesso)
+L' imposta è l'ammontare si calcolano senza l'arrotondamento (per eccesso in questo caso), ossia 300.09
+Nei "Totali" verrà pero' indicato, nel tag specifico "PagatoContanti" la cifra esatta incassata, ossia 300.10
+
+Domande. 
+ 
+1. In caso di documento commerciale con vendita di beni non consegnati, nella stampa del documento commerciale va indicato che il 
+bene non è stato consegnato? (Vedi esempio 1) 
+R: non è necessario e quindi non è obbligatorio riportare alcuna dicitura 
+
+Qui non capisco , in realtà nel primo scontrino è indicato anche se è discutibile la stringa in fondo allo scontrino.
+Tra bene non consegnato e bene consegnato gli scontrini sono identici ma l'XML relativo è completamente diverso.
+
+2. Nei casi (Pag. Parziale Bene non consegnato, Pag. Parziale Prestazione terminata, Ness. Pag. Prestazione Terminata e Pag. Parziale
+ Prestazione non Terminata), al momento del successivo pagamento deve essere emesso un altro documento commerciale collegato al 
+precedente. Come viene inserita questa informazione del II documento commerciale? (Vedi Esempio 7) 
+R: non è necessario, quindi non è obbligatorio, riportare alcun riferimento al precedente documento commerciale: 
+è ciò che viene memorizzato e poi elaborato e riportato nel file dei corrispettivi dall’RT che è determinante. 
+I documenti commerciale della prima e della seconda operazione non devono essere necessariamente collegati. 
+
+Domanda: Cosa succede se il successivo pagamento è effettuato dopo la chiusura che conteneva il primo?
+Niente, bisogna sempre far riferimento al primo scontrino quando si salda
+
+
+6. Gestione Omaggi, nel caso di omaggi, nell’Layout del DC, l’ammontare degli omaggi rientra nel totale complessivo? 
+Risposta Mina: SI Mentre l’importo dell’omaggio è classificato come pagamento non riscosso? Risposta Mina: SI (vedi esempio 5). 
+Mentre nel tracciato XML, l’importo al netto dell’IVA viene inserito nel campo 4.1.14  <NonRiscossoOmaggio> 
+e nel campo 4.1.6.  <ImportoParziale> . 
+Ma cosi facendo il valore dell’ammontare 4.1.4 non più uguale alla somma degli importi riportati nei campi 
+da 4.1.6 al campo 4.1.14, come previsto dall’allegato tipi dati corrispettivi ver 7. 
+Risposta Mina: è vero, la descrizione del campo 4.1.4<Ammontare> deve essere corretta e riporterà la seguente dicitura 
+all’ultimo capoverso “Il valore <Ammontare> deve essere uguale alla somma degli importi riportati nei campi da 4.1.6 al campo 4.1.13” 
+
+Domanda ad Andrea: quindi nell' esempio dell' omaggio dobbiamo togliere il netto dell' omaggio dall' ammontare, giusto?no
+Ad esclusione del campo 4.1.12?    <TotaleDaFattureRT> 
+

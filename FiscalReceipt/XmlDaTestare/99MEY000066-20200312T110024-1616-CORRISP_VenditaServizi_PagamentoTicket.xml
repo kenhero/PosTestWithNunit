@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r:DatiCorrispettivi xmlns:r="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0" versione="COR10"><Trasmissione><Progressivo>1616</Progressivo><Formato>COR10</Formato></Trasmissione><DataOraRilevazione>2020-03-06T11:00:24</DataOraRilevazione><DatiRT><Riepilogo><IVA><AliquotaIVA>22.00</AliquotaIVA>   <Imposta>26,15</Imposta></IVA><Ammontare>122,95</Ammontare>  <ImportoParziale>118,85</ImportoParziale> <NonRiscossoServizi>4,10</NonRiscossoServizi><CodiceAttivita>123456</CodiceAttivita></Riepilogo><Riepilogo><IVA><AliquotaIVA>4.00</AliquotaIVA><Imposta>1,86</Imposta></IVA><Ammontare>48,08</Ammontare>  <ImportoParziale>46,47</ImportoParziale> <NonRiscossoServizi>1,60</NonRiscossoServizi> <CodiceAttivita>123456</CodiceAttivita></Riepilogo><Riepilogo><Natura>N4</Natura><Ammontare>100</Ammontare>  <ImportoParziale>96,67</ImportoParziale> <NonRiscossoServizi>3,33</NonRiscossoServizi><CodiceAttivita>aaa</CodiceAttivita></Riepilogo><Totali> <NumeroDocCommerciali>1</NumeroDocCommerciali> <PagatoContanti>210,00</PagatoContanti> <PagatoElettronico>80,00</PagatoElettronico><Ticket> <PagatoTicket>10,00</PagatoTicket> <NumeroTicket>1</NumeroTicket></Ticket></Totali></DatiRT>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>S6QWJw7sKgwbldINtpkI1D5gjzMLkygl2TncIvT4/Rk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+gsU+yPBgDd8YQ8caFC023M3NaYZZYnK0lH0teG5zcBulQFH0KxE4k/xOCxOCjYh1 F9SdAxGcd7YVz9dHiMlSMQK+VfuIs3/ujRJrF8//tLdKT80MhXNP0Qr/fgJT6eHo PHLC3eJVBPG3KzbqK65R9CbHAQEH4z0F6Y1TcyPGuhxJ3Ek11EGkmDZ/8ceCVd22 BlFlJcU3H87tezo9mRb1vRMP0fvhXX8iMMkYVG1vpqAzMX6T57T/V/kaAnp1IqUD X1D0uVCwzsbfAW5tkgRLI58a5ItpdG5Aq7vLmep/u1j+zJyxQlg5oGTVzKVX4Bg1 J/pxVufB/V282j/Qdos8dw==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIFBzCCAu+gAwIBAgIIfVMQwche0WswDQYJKoZIhvcNAQELBQAwSjELMAkGA1UE BhMCSVQxDjAMBgNVBAoMBVNvZ2VpMSswKQYDVQQDDCJTb2dlaSBDZXJ0aWZpY2F0 aW9uIEF1dGhvcml0eSBUZXN0MB4XDTIwMDMwNDEzMjYzN1oXDTIzMDMwNTEzMjYz N1owazELMAkGA1UEBhMCSVQxHjAcBgNVBAoMFUFnZW56aWEgZGVsbGUgRW50cmF0 ZTEmMCQGA1UECwwdU2Vydml6aW8gQUUgQ29ycmlzcGV0dGl2aSBJVkExFDASBgNV BAMMCzk5TUVZMDAwMDY2MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA tMkZCdOO+cgnR+uNjJ1oWzcDF9CrKscIiFi+IkJ4IFk5G3Gis8ZYyjddzn/+Mozx 6pS0fw+o7EUejCKhQIwLv4vTim7SCUaYlBHcjOLJnOZMSpSEiUDQ0IJ+h8NUdNI8 OdXz0dd4vq3QjblW2OPSOLQqzfiiQhKtRgFC6PtBAj1qGZ5bnCxhEz4RCKFWHpDY 54+tCEdmrwxm7n70QkctjU7AlL8SIsyQ5NuKaOYhO+R5Nol62phK3WdSxpZGXQC7 FWTmhyde0r7GwjJ76iFOqoQX8Zn+NE2n9Lw+rJ3ISiAaJgqWhPk2BJKrcEx2oo3p QFlTPKKXJ9nCV2jF+gxiBwIDAQABo4HPMIHMMB8GA1UdIwQYMBaAFMaWUxWzFxt5 oxJm7crW9EFVNPEhMHoGA1UdHwRzMHEwb6BtoGuGaWxkYXA6Ly9jYWRzLmZpbmFu emUuaXQvQ049U29nZWklMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5JTIwVGVz dCxPPVNvZ2VpLEM9SVQ/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDAdBgNVHQ4E FgQUEfHNCA4VJD0DzAnLUzK7XaP5UD0wDgYDVR0PAQH/BAQDAgZAMA0GCSqGSIb3 DQEBCwUAA4ICAQArNJ+BUGDdoxn9WdX8yGRpwjyS4px6+NyH8ijMQ0RxPmpdwYmc yMl6Nn8LrvEVBtnC2d0niwYPJrMLZSPwMoD8rphhJIiT0hXUWnv/Lmyr9J7Q69Lk lXi3qnVYom4lKU4mZMn7AOLddPZQjzM+m+GUkfWK0xi8eynQsIRPHKNfrMdVBb4F UnYN1IrbXXlTlSzQ1TUarfWzN2TitFJuIN3DaVvgjxax0c+l1EYSF+iB+lp0G5mB GGBXI2kJB6DE8zu6/EstIcB0xZy6PLaKjKJLQn61PCvC9iElzjZ0PdD17anE8NgH gJzwBrCJTQDZzjjgtcETzxPtAXnKmIJmTTUU+1GT3tPtV/e43WTqIbFx4ksg8JVz CaQfKvttJTogc+hx4b+geBvz+z6IcHHNqLCm5sPRwONvXGQVqrE/PIlFnms6HDFN ynB/LTvUbm+MTh6yIqf1VfXlYmWlWuPV4/w8hJiPYrvPzc1pzqNLFAbgKitqPvO/ 2pevBIxv/Rf6uEcz6hc04gsRRpH7KtiQYcDuH0moCAQF3dwXWYLJe+1v82wn2Knk mLPmGXMnEQ+NaCk33DJEElm4nN9BLOKPMjtlTCHe0Yw2XquUqGhEfT+RCZB/f2lq NeFPvMPdaw8+rwVgpaXbzd8zlQkCrLpmUkTrayF7KZQzpdYe/Ulhu5us6A==
+</X509Certificate>
+<X509IssuerSerial>
+<X509IssuerName>CN=Sogei Certification Authority Test.O=Sogei.C=IT</X509IssuerName>
+<X509SerialNumber>9030580102284366187</X509SerialNumber>
+</X509IssuerSerial>
+</X509Data>
+</KeyInfo>
+</Signature>
+</r:DatiCorrispettivi>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<State>
+  <FiscalReceipt>
+    <functionName>initFiscalDevice</functionName>
+    <var>FiscalPrinter1</var>
+    <var>1</var>
+    <functionName>BeginFiscalReceipt</functionName>
+    <var>true</var>
+    <var>1</var>
+    <functionName>PrintRecItem</functionName>
+    <var>ITEM</var>
+    <var>(decimal)10000</var>
+    <var>(int)1000</var>
+    <var>(int)3</var>
+    <var>(decimal)10000</var>
+    <var>1</var>
+    <functionName>PrintRecTotal</functionName>
+    <var>(decimal)10000</var>
+    <var>(decimal)10000</var>
+    <var>0CASH</var>
+    <var>10</var>
+  </FiscalReceipt>
+</State>

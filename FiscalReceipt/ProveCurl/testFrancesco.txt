@@ -1,0 +1,4 @@
+http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0
+true
+COR10
+

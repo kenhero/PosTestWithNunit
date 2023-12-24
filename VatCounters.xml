@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Creating an XML Tree all daily and grand/IVA counters... -->
+<Records>
+  <Counter TotalizerType="Day">
+    <VatRate>2200</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>1000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0400</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0500</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Day">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>2200</VatRate>
+    <Item>00003304600</Item>
+    <Net>00002708700</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>1000</VatRate>
+    <Item>00000096000</Item>
+    <Net>00000087300</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0400</VatRate>
+    <Item>00000350000</Item>
+    <Net>00000336500</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0500</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0000</VatRate>
+    <Item>00000400000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+  <Counter TotalizerType="Grand">
+    <VatRate>0000</VatRate>
+    <Item>00000000000</Item>
+    <Net>00000000000</Net>
+  </Counter>
+</Records>

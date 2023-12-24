@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="method_list.xsd">
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="Demo" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="2" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="5" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="7" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="24" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="25" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="27" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="28" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="32" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="36" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="37" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="38" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="39" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="40" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="41" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="42" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="43" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="61" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command 
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestZrepJsonFile"   repeat="1" />
+  	<Command 
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestAdjustmentSequence"   repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="PackageAdjustment"         repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="readFromEJ" var1=" " var2=" "     repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="PrintRecRefound"   repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="2" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="5" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="7" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="24" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="25" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="27" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="28" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="32" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="36" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="37" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="38" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="39" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="40" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="41" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="42" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="43" var2="0" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData"        var1="61" var2="0" repeat="1" />
+  </command_list>
+

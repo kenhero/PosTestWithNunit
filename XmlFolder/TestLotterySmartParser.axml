@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="method_list.xsd">
+     <Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+<!--Chiamo la 9218 su un doc SE ma con KoR 00-->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="0317" var2="0001" var3="050320" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!--Chiamo la 9218 su un doc SE ma con KoR 01-->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="0317" var2="0001" var3="050320" var4="01" var5="01" var6=" " var7=" " repeat="1" />
+<!--Chiamo la 9218 su un doc AC-->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="0314" var2="0002" var3="050320" var4="00" var5="01" var6=" " var7=" " repeat="1" />
+<!--Chiamo la 9218 su un doc AC ma con kor 01-->
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatusSingleReceipt" var1="0314" var2="0002" var3="050320" var4="01" var5="01" var6=" " var7=" " repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" Method="LotterySmartParser"   var1=" " repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+</command_list>
+

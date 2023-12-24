@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><r:DatiCorrispettivi xmlns:r="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0" simulazione="true" versione="COR10"><Trasmissione><Progressivo>1614</Progressivo><Formato>COR10</Formato></Trasmissione><DataOraRilevazione>2020-03-06T06:00:24</DataOraRilevazione><DatiRT><Riepilogo><IVA><AliquotaIVA>22.00</AliquotaIVA><Imposta>26.15</Imposta></IVA><Ammontare>122.95</Ammontare><ImportoParziale>118.85</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>4.10</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo><Riepilogo><IVA><AliquotaIVA>4.00</AliquotaIVA><Imposta>1.86</Imposta></IVA><Ammontare>48.08</Ammontare><ImportoParziale>46.47</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>1.61</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo><Riepilogo><Natura>N4</Natura><Ammontare>100.00</Ammontare><ImportoParziale>96.67</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>3.33</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo><Totali><NumeroDocCommerciali>1</NumeroDocCommerciali><PagatoContanti>210.00</PagatoContanti><PagatoElettronico>80.00</PagatoElettronico><ScontoApagare>0.00</ScontoApagare><Ticket><PagatoTicket>0.00</PagatoTicket><NumeroTicket>1</NumeroTicket></Ticket></Totali></DatiRT><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>ztEiyYlWc5xLPCMitAdyfi6nifCPfJxn0ZmYkHSGaYA=</DigestValue></Reference></SignedInfo><SignatureValue>NhxVFfxl+Ao8Lf5B2ZLJ2iGLb7BQw539LDsyLPhx+bx4bRJVnh8Lo9SAIZakYUTJ
+7FaGXwd+IwI69laGlTjyaotA2oOLbbtylBeWFPBq9Ck0uwXi0Ux0EwnBJSEr4zfS
+MAcEcYovV/KXldpyod3Gh7vn7T9mhD9kcFrw7zuEYajxNQcE/cm4Sb44xGeNhfBR
+y/jXwR/SrEg8s5UF511OQaueIpUBsTW+FiEri4LcXNh0GNH70Gf0w/LXtkL91mig
+xV7M/L9LvIR4fa3/P+d8TIb9rBTILAEe0okaepcvf3n7/LOhRKg6sL3/UAoiM4yA
+Gv44yr661pknVzfpEoZWkw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFBzCCAu+gAwIBAgIIJapxfnKrJdswDQYJKoZIhvcNAQELBQAwSjELMAkGA1UE
+BhMCSVQxDjAMBgNVBAoMBVNvZ2VpMSswKQYDVQQDDCJTb2dlaSBDZXJ0aWZpY2F0
+aW9uIEF1dGhvcml0eSBUZXN0MB4XDTIwMDEwMjExMzEyNloXDTIzMDEwMjExMzEy
+NlowazELMAkGA1UEBhMCSVQxHjAcBgNVBAoMFUFnZW56aWEgZGVsbGUgRW50cmF0
+ZTEmMCQGA1UECwwdU2Vydml6aW8gQUUgQ29ycmlzcGV0dGl2aSBJVkExFDASBgNV
+BAMMCzk5TUVZMDAwMDU5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+w3PdJmacNXTNK1GgyKx9nHzZOlyOP8mQbCBCy+xDNjsmBin9k9UF4igejEsnpUjf
+Y0EYj2JmDwNLEtrRz7Dg9kFqz8nyAUKSOrKcGYjuJKcwLfsBdMKJsrO8V39r9Mc8
+H3sBvDbuvUqUzKWpKlTKPti8284xqfIO5c2hxWwxx+6xasXvLQS1FuzZX8oOJv8A
++RLQLhyD3BygH2miXkn1TB2svH2OfZM0fUXI8OVIESmAg0YKJPhzDwtMAB4ZZ//i
+GOfUgA85NfGDg+y6FaXsmn51Xbq94pa6khyPt3UF+/HHkEnm29NtD9kG7OQJkuAi
+mZEy+RAQJWm8hICi+bRrwQIDAQABo4HPMIHMMB8GA1UdIwQYMBaAFMaWUxWzFxt5
+oxJm7crW9EFVNPEhMHoGA1UdHwRzMHEwb6BtoGuGaWxkYXA6Ly9jYWRzLmZpbmFu
+emUuaXQvQ049U29nZWklMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5JTIwVGVz
+dCxPPVNvZ2VpLEM9SVQ/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDAdBgNVHQ4E
+FgQUzY59fsEzCOyRPOqHF/B1GLDFGG8wDgYDVR0PAQH/BAQDAgZAMA0GCSqGSIb3
+DQEBCwUAA4ICAQArwfm0ShXr+FD9mkhohV7jHJ++yr+KEuY+YnuZOqQFBRTY4GIb
+BxwBFDbz4lC/irdTj5e2oLm55DhXNt30X7afJtiWo90E95YF0S+o/ptmnOCba+xx
+MpHBovDy8gkbGZXYmhwSjqq+EP6+yHQGrS7bFSw1/r0xEQXxV2ZxHqiyhf8Thrme
+8mGOyUX5kYENEyFCXLwXcn2VuKPT5N3UFdk3M7JvwBHv87lDaICLbdqxpWRMLob6
+G7wcw3BIwkRGYczbi8NnAzwZyDamp85qwLdOZTom8I4hzim1EC4YCgIR3kmwbH0n
+VgINPhuzRCp++ByZyPZDvmoaZnHcnjhNrcdcBpBdOFeiC9kabbvn1P9CSsype5Tx
+RMF1GPetklUP9qT3K7vL9N9fNwz7z1k1X2huYujuT7d2cmPxgIAcI/Uu84t/EwN+
+5zXysJdw/O1Zk8jnPkAYSHZMX5UPYovtb/fjNifkboIt+SMokw++KxFpXHQN7l9d
+F9i9awtmr7qAD4rWLxr7LokQXXhrtMAh6aS92tkgK2Tkigl5cXK/jkfO8mVFyLUz
+9wta4tzEeaEgnAikv6oVch/lFhDYchU2h6NFYIULBoQ0KTsZy/EoQf5Tbs1I9kSx
+GARxtVHPja8/eGO3CaFB6bTcZpksI9/8yfmR71wOdWydgw5FYzqGS0bMFg==</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Sogei Certification Authority Test,O=Sogei,C=IT</X509IssuerName><X509SerialNumber>2714106513347782107</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></r:DatiCorrispettivi>

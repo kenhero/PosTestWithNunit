@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0001" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0002" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0003" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0004" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0005" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0006" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0007" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0008" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0009" var4=" " var5=" " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="110620" var2="0181" var3="AAAA0010" var4=" " var5=" " repeat="1" />	
+</command_list>

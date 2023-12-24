@@ -1,0 +1,13 @@
+2020-05-09 01:19:02,575 ERROR TestServerLotteryReadStatus.xml FiscalReceipt.Library.FiscalReceipt .ctor - 8074 
+ ErrorCode: Illegal  
+2020-05-09 01:19:02,618 ERROR TestServerLotteryReadStatus.xml FiscalReceipt.Library.FiscalReceipt .ctor - 8074 
+ ErrorCodeExtended: 0  
+2020-05-09 01:19:02,619 ERROR TestServerLotteryReadStatus.xml FiscalReceipt.Library.FiscalReceipt .ctor - 8074 
+ Message: already opened  
+2020-05-09 01:19:37,787 FATAL TestServerLotteryReadStatus.xml FiscalReceipt.Library.FiscalReceipt ReadLotteryStatusSingleReceipt - 9874 
+ Generic Error System.FormatException: Formato della stringa di input non corretto.
+   in System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   in System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   in System.Convert.ToInt32(String value)
+   in FiscalReceipt.Library.Lottery.ReadLotteryStatusSingleReceipt(String ZRep, String REC_NUM, String tillID, String date, String KoR, String& result) in G:\ToolAggiornato\PosTestWithNunit\FiscalReceipt\FiscalReceipt.cs:riga 9874
+ 

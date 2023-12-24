@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="Demo" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="BeginFiscalReceipt"        var1="true" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="testFiscalReceiptClass"        var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getFiscalReceiptNumber" var1="1" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.RetrieveData,FiscalReceipt" Method="getDailyData" var1="24" var2="0" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatRecord,FiscalReceipt" Method="GetVatCounter" var1="Day" var2="2200" var3="Net" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="testFiscalReceiptClass"        var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="MF" repeat="1" />
+<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="testFiscalReceiptClass"        var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="checkRtStatus" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="2" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="3" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="4" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="5" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="6" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="7" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="8" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="getVatTableEntry"        var1="9" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="2" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="3" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="4" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="5" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="6" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="7" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="8" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" Method="GetDepParam"        var1="9" repeat="1" />
+     	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="ResetPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="checkRtStatus" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="testFiscalReceiptClass"        var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+</command_list>
+ 

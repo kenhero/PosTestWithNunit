@@ -1,0 +1,45 @@
+1) 1 euro Iva 22% 18 cent 
+
+2) 1.2 euro Iva 10% 11 cent
+
+3) 0.3 euro Iva 4% 1.15 cent
+
+4) Iva Es 0 cent
+
+
+Sequenza:
+-Faccio 1 euro al 4% 4 cent di Iva
+
+
+
+-Documento multi aliquota che poi verrà reso parzialmente fino ad azzerarlo totalmente che sarà :
+1 euro al 22% 		18 cent
+0.12 euro al 10%	1 cent
+0.30 euro al 4% 	1 cent
+0.5 euro Es		0
+
+Tot:1.92		Tot Iva:0.20 euro
+
+
+-Annullo 0.10 euro al 22% 2 cent di Iva
+
+-Annullo 0.10 euro al 22% 2 cent di Iva
+
+-Annullo 0.80 euro al 22% 14 cent di Iva
+
+-Annullo 0.12 euro al 10% 1 cent di Iva
+
+-Annullo 0.30 euro al 4% 1 cent di Iva
+
+-Annullo di 0.50 euro ES* 0 cent di Iva
+
+
+-Documento multi aliquota che poi verrà reso annullato che sarà :
+1 euro al 22% 		18 cent
+0.12 euro al 10%	1 cent
+0.30 euro al 4% 	1 cent
+0.5 euro Es		0
+
+Tot:1.92		Tot Iva:0.20 euro
+
+-Annullo di quest'ultimo documento di vendita

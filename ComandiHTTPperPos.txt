@@ -1,0 +1,108 @@
+1)Chiedere la data al POS
+
+POST /cgi-bin/fpmate.cgi?timeout=3000
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+	<getDate timeout="6000" />
+</printerCommand>
+</s:Body>
+</s:Envelope>
+
+
+2)Comando di disattivazione
+
+POST /cgi-bin/fpmate.cgi?timeout=3000 (17 byte blank (bo?), EDIT:Si perchè nel protocollo sono 30 byte quindi la rimanenza ci mette blanck
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+	<directIO command="9002" data="12NVRNDR59B10F205DIT12825980159                 IT07511580156                 240919161300                                                                                                    " timeout="60000" />
+</printerCommand>
+</s:Body>
+</s:Envelope>
+
+3)Comando di attivazione (lo porta in RT)
+
+POST /cgi-bin/fpmate.cgi?timeout=3000 HTTP/1.1
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+	<directIO command="9002" data="02NVRNDR59B10F205DIT12825980159                 IT07511580156                 250919112000
+" timeout="60000" />                                                                                                    
+</printerCommand>
+</s:Body>
+</s:Envelope>
+
+4)Lettura settaggio del Service Command
+
+POST /cgi-bin/fpmate.cgi?timeout=3000
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+<directIO  command="9202" data="02000" />
+</printerCommand>
+</s:Body>
+</s:Envelope>
+
+5)Chiede la data al POS
+
+POST /cgi-bin/fpmate.cgi?timeout=3000
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+	<getDate timeout="6000" />
+</printerCommand>
+</s:Body>
+</s:Envelope>
+
+
+
+
+6)Stralcio di un Wireshark dove provo a chiedere di formattare il DGFE con una post ma non so perchè non funziona...(meglio così in realtà)
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<printerCommand>
+	<directIO command="3217" data="01" timeout="3000" />
+</printerCommand>
+</s:Body>
+</s:Envelope>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST,GET,OPTIONS,HEADER
+Access-Control-Allow-Headers: Content-Type,Content-Length,If-Modified-Since,SOAPAction
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<response success="true" code="" status="2">
+	<addInfo>
+	<elementList>lastCommand,printerStatus,responseCommand,responseData</elementList>
+		<lastCommand>74</lastCommand>
+		<printerStatus>20110</printerStatus>
+		<responseCommand>3217</responseCommand>
+		<responseData>01000056EY99</responseData>
+	</addInfo>
+</response>
+</soapenv:Body>
+</soapenv:Envelope>
+
+
+

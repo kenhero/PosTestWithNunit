@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+	<Command 
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command 
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="0CASH" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="000CONTANTE" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="200CREDITO" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="100ASSEGNO" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="201CARTA DI CREDITO" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="203ALTRO PAGAMENTO" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="204BANCOMAT" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" 
+Method="TestLotteryPrintRecRefound"  var1="301TICKET" repeat="1" />
+  	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestMicroScontriniLottery" var1="Caramelle" var2="10000" var3="1000" var4="1" var5="100" var6="ABCDEFGN" var7="01" repeat="1" />
+</command_list>
+

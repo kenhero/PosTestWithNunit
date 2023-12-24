@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="SendLotteryCode"  var1="ABCDEFGN" var2="01" repeat="1" />
+<!-- Test del 12 novembre quando i doc erano formattati male,test per garantire robustezza -->
+  	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121119" var2="2336" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121119" var2="2337" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="111119" var2="2222" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="131119" var2="0029" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="131119" var2="0030" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121219" var2="0066" var3=" " var4=" " repeat="100" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="ReadLotteryStatus"  var1="121219" var2="0065" var3=" " var4=" " repeat="10" />
+	<Command
+Class="FiscalReceipt.Library.Lottery,FiscalReceipt" 
+Method="MoveRejectedFiles"  var1="01" repeat="10" />
+	</command_list>

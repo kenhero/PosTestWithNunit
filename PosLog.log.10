@@ -1,0 +1,8 @@
+2021-01-21 16:22:36,462 ERROR to\PosTestWithNunit\XmlFolder\TestServer.xml FiscalReceipt.Library.FiscalReceipt initFiscalDevice - 282 
+ ErrorCode: Claimed  
+2021-01-21 16:22:36,484 ERROR to\PosTestWithNunit\XmlFolder\TestServer.xml FiscalReceipt.Library.FiscalReceipt initFiscalDevice - 282 
+ ErrorCodeExtended: 0  
+2021-01-21 16:22:36,485 ERROR to\PosTestWithNunit\XmlFolder\TestServer.xml FiscalReceipt.Library.FiscalReceipt initFiscalDevice - 282 
+ Message: Stub message. LockPort Timeout.  
+2021-01-21 16:22:36,486 FATAL to\PosTestWithNunit\XmlFolder\TestServer.xml FiscalReceipt.Library.FiscalReceipt initFiscalDevice - 282 
+ Stub message. LockPort Timeout.  

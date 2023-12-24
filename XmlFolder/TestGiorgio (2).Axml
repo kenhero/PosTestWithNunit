@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="ZReport"         repeat="1" />
+	
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloOmaggio"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene B" repeat="1" />
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloUtilizzoBuonoMonouso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+		
+
+
+
+
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAccontoConsegnaBene"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAccontoGenerico"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestVenditaBeniPagamentoNRBeneConsegnato"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="1" var5="WindowsOSrep1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="1" var5="WindowsOSrep3" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="00" var4="1" var5="WindowsOSrep13" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestServizioNonRiscosso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="WindowsOSrep1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="WindowsOSrep3" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="00" var4="0" var5="WindowsOSrep13" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestSegueFattura"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestOmaggio"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestScontoAPagare"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestArrotondamentoDifetto"  repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestArrotonramentoEccesso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setVatTableEntry" var1="97" var2="0001" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="2" var2="105120" var3="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="01" var4="1" var5="Servizio C" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="02" var3="14" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="05" var2="02" var3="14" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="06" var2="02" var3="14" var4="0" var5="Bene C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestVentilazione"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="2" var2="000000" var3="0" repeat="1" />
+<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="WindowsOSrep1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="WindowsOSrep3" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="00" var4="0" var5="WindowsOSrep13" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="00" var3="09" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="05" var2="00" var3="10" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="06" var2="00" var3="11" var4="0" var5="Bene C" repeat="1" />
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="01" var3="14" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="05" var2="01" var3="14" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestVentilazioneMista"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="WindowsOSrep1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="00" var3="09" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="05" var2="00" var3="10" var4="0" var5="Bene B" repeat="1" />
+	
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="00" var4="1" var5="Servizio C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloPrimoScenario"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="00" var4="0" var5="Servizio C" repeat="1" />
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="01" var4="1" var5="Servizio C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloSecondoScenario"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="13" var4="0" var5="Servizio C" repeat="1" />
+
+
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="0" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="13" var4="0" var5="Servizio C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloTerzoScenario"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="13" var4="0" var5="Servizio C" repeat="1" />
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Buono Monouso" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestBuonoMonouso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Prodotto A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestUtilizzoBuonoMonouso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestBuonoMultiusoUtilizzo"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+	
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestBuonoMultiusoCeliachia"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Servizio A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="13" var4="1" var5="Servizio C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestTicketRestaurant"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="00" var3="13" var4="0" var5="Bene A" repeat="1" />
+
+	
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Prodotto A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloBuonoMonouso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Prodotto A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestLotteriaScontoAPagare"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Servizio A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestResoAccontoServizi"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+	
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Servizio A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="01" var3="11" var4="1" var5="Servizio C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestResoAccontoServiziSecondoScenario"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="00" var3="11" var4="0" var5="Bene C" repeat="1" />
+
+
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloUtilizzoBuonoMonouso"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="01" var3="00" var4="0" var5="Bene C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloNonRiscossoDaSSN"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="00" var3="00" var4="0" var5="Bene C" repeat="1" />
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="01" var3="11" var4="0" var5="Bene C" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloDCSegueFattura"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene B" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="00" var3="11" var4="0" var5="Bene C" repeat="1" />
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Servizio A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloAccontoServizio1"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="1" var5="Servizio A" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloAccontoServizio2"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	
+	
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="0" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="1" var5="Servizio B" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestAnnulloOmaggio"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene B" repeat="1" />
+
+
+
+
+
+
+
+
+<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="620100" var3="1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="01" var3="01" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="01" var3="03" var4="0" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="11" var2="01" var3="02" var4="1" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="13" var2="01" var3="00" var4="1" var5="Bene A" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt"
+Method="LotteriaLiveGiorgio"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SetATECOCode" var1="1" var2="000000" var3="0" repeat="0" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene A" repeat="1" />
+
+
+
+
+
+
+
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="FormePagamentoXml20" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="TestOracle" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="ZReport"         repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Acconto" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AccontoConsegnaBene" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AccontoGenerico" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneConsegnato" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ServizioNonRiscosso" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SegueFattura" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Omaggio" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ScontoAPagare" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ArrotondamentoDifetto" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ArrotondamentoEccesso" var1= " " repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Ventilazione" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloPrimoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloSecondoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloTerzoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="UtilizzoBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiuso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiusoUtilizzo" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="TicketRestaurant" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="NonRiscossoDaSSN" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="LotteriaScontoAPagare" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ResoAccontoServizi" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ResoAccontoServiziSecondoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloUtilizzoBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloNonRiscossoDaSSN" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloDCSegueFattura" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio2" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneConsegnato" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneNonConsegnato" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiuso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio2" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloOmaggio" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestScontoAPagare"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneNonConsegnato" repeat="1" />
+     	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiuso" repeat="1" />
+		<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="PagamentiNegativi" var1="TestAcconto" var2="1000" var3="00" var4="01" repeat="1" />
+</command_list>

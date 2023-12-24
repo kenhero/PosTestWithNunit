@@ -1,0 +1,75 @@
+https://v-apid-ivaservizi.agenziaentrate.gov.it/v1
+
+
+curl -XPOST \
+-k \
+--header 'Content-Type: application/xml' \
+--header 'Accept: application/xml' \
+'https://apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/' \
+--data-binary @99MEY000066-20200312T110024-1618-CORRISP_diprova.xml --verbose \
+--output risposta.xml --progress-bar
+                   
+
+
+
+"-XPOST -k  --header 'Content-Type: application/xml' --header 'Accept: application/xml' 'https://apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/' --data - binary G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\99MEY000066-20200312T110024-1618-CORRISP_diprova.xml --verbose  --output G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\risposta.xml  --progress-bar"
+
+"-XPOST -k  --header 'Content-Type: application/xml' --header 'Accept: application/xml' 'https://apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/' --data-binary @G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\99MEY000066-20200312T110024-1618-CORRISP_diprova.xml --verbose --output G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\risposta.xml --progress-bar "
+
+curl -X POST "https://sseapid.isti.cnr.it/v1/dispositivi/corrispettivi" -H "accept: application/xml" -H "Content-Type: application/xml" -d "<?xml version=\"1.0\" encoding=\"UTF-8\"?><DatiCorrispettivi xmlns=\"http://ivaservizi.agenziaentrate.gov.it/docs/xsd/corrispettivi/dati/v1.0\" versione=\"COR_10\" simulazione=\"string\">\t<trasmissione>\t\t<Formato>DCL_10</Formato>\t\t<Denominazione>string</Denominazione>\t\t<IdCassa>string</IdCassa>\t</trasmissione>\t<periodoInattivo>\t\t<Dal>2020-03-17T17:54:32.395Z</Dal>\t\t<Al>2020-03-17T17:54:32.395Z</Al>\t</periodoInattivo>\t<DataOraRilevazione>2020-03-17T17:54:32.395Z</DataOraRilevazione>\t<datiRT>\t-<Riepilogo>-<IVA><AliquotaIVA>22.00</AliquotaIVA><Imposta>26.15</Imposta></IVA><Ammontare>122.95</Ammontare><ImportoParziale>118.85</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>4.10</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo>-<Riepilogo>-<IVA><AliquotaIVA>4.00</AliquotaIVA><Imposta>1.86</Imposta></IVA><Ammontare>48.08</Ammontare><ImportoParziale>46.47</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>1.61</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo>-<Riepilogo><Natura>N4</Natura><Ammontare>100.00</Ammontare><ImportoParziale>96.67</ImportoParziale><TotaleAmmontareResi>0.00</TotaleAmmontareResi><TotaleAmmontareAnnulli>0.00</TotaleAmmontareAnnulli><BeniInSospeso>3.33</BeniInSospeso><NonRiscossoServizi>0.00</NonRiscossoServizi><NonRiscossoFatture>0.00</NonRiscossoFatture><TotaleDaFattureRT>0.00</TotaleDaFattureRT><NonRiscossoDCRaSSN>0.00</NonRiscossoDCRaSSN><NonRiscossoOmaggio>0.00</NonRiscossoOmaggio><CodiceAttivita>123456</CodiceAttivita></Riepilogo>-<Totali><NumeroDocCommerciali>0</NumeroDocCommerciali><PagatoContanti>210.00</PagatoContanti><PagatoElettronico>80.00</PagatoElettronico><ScontoApagare>0.00</ScontoApagare>-<Ticket><PagatoTicket>0.00</PagatoTicket><NumeroTicket>1</NumeroTicket></Ticket></Totali>\t</datiRT>\t<InterventoTecnico>\t\t<CFTecnico>string</CFTecnico>\t\t<idIVALaboratorio>\t\t\t<IdPaese>string</IdPaese>\t\t\t<IdCodice>string</IdCodice>\t\t</idIVALaboratorio>\t\t<DataOra>2020-03-17T17:54:32.395Z</DataOra>\t\t<Codice>string</Codice>\t\t<Note>string</Note>\t\t<NumeroSw>string</NumeroSw>\t\t<DataRelease>2020-03-17T17:54:32.395Z</DataRelease>\t\t<cftecnico>string</cftecnico>\t</InterventoTecnico>\t<Segnalazione>\t\t<Posizione>0</Posizione>\t\t<NumeroProgressivo>string</NumeroProgressivo>\t\t<DataOra>2020-03-17T17:54:32.395Z</DataOra>\t\t<errori>\t\t\t<Errore>\t\t\t\t<Codice>string</Codice>\t\t\t\t<Descrizione>string</Descrizione>\t\t\t</Errore>\t\t\t<Codice>string</Codice>\t\t\t<Descrizione>string</Descrizione>\t\t</errori>\t</Segnalazione>\t<signature Id=\"string\">\t\t<signedInfo Id=\"string\">\t\t\t<canonicalizationMethod Algorithm=\"string\">\t\t\t\t<content>string</content>\t\t\t</canonicalizationMethod>\t\t\t<signatureMethod Algorithm=\"string\">\t\t\t\t<content>string</content>\t\t\t</signatureMethod>\t\t\t<Reference xmlns=\"http://www.w3.org/2000/09/xmldsig#\" Id=\"string\" URI=\"string\" Type=\"string\">\t\t\t\t<transforms>\t\t\t\t\t<Transform xmlns=\"http://www.w3.org/2000/09/xmldsig#\" Algorithm=\"string\">\t\t\t\t\t\t<content>string</content>\t\t\t\t\t</Transform>\t\t\t\t</transforms>\t\t\t\t<digestMethod Algorithm=\"string\">\t\t\t\t\t<content>string</content>\t\t\t\t</digestMethod>\t\t\t\t<DigestValue>string</DigestValue>\t\t\t</Reference>\t\t</signedInfo>\t\t<signatureValue Id=\"string\">\t\t\t<DigestValue>string</DigestValue>\t\t</signatureValue>\t\t<keyInfo Id=\"string\">\t\t\t<KeyName xmlns=\"http://www.w3.org/2000/09/xmldsig#\">string</KeyName>\t\t\t<x509Data>\t\t\t\t<x509IssuerSerial>\t\t\t\t\t<X509IssuerName xmlns=\"http://www.w3.org/2000/09/xmldsig#\">string</X509IssuerName>\t\t\t\t\t<X509SerialNumber xmlns=\"http://www.w3.org/2000/09/xmldsig#\">0</X509SerialNumber>\t\t\t\t</x509IssuerSerial>\t\t\t\t<X509SKI>string</X509SKI>\t\t\t\t<X509SubjectName xmlns=\"http://www.w3.org/2000/09/xmldsig#\">string</X509SubjectName>\t\t\t\t<X509Certificate>string</X509Certificate>\t\t\t\t<X509CRL>string</X509CRL>\t\t\t</x509Data>\t\t\t<MgmtData xmlns=\"http://www.w3.org/2000/09/xmldsig#\">string</MgmtData>\t\t</keyInfo>\t</signature></DatiCorrispettivi>"
+
+
+
+curl -v -H "Content-Type: application/xml" --tlsv1.2 --cacert \
+/home/fra/lavoro/colibre/clienti/epson-fiscal-printers/home-epsonbox/francesco-dir/italia/fiscal/RegistratoreTelematico_2016/sperimentazione/Certificati-sperimentazione-rinnovo-2018/CAAgenziadelleEntrateTest.cer \
+https://v-apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/ \
+--data-binary --verbose --insecure   @G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\test4.xml \
+--output G:\\ToolAggiornato\\PosTestWithNunit\\FiscalReceipt\\risposta.xml  --progress-bar
+
+
+Differenze Xml1.0 Xml2.0 
+
+1)Non c'è retrocompatibilità con gli Xml 1.0
+
+2)Natura N4 è spostato dopo le aliquote fisse (22, 10, 5, 4)
+
+
+4)Nuovi indici da implementare:BeniInSospeso, NonRiscossoServizi, NonRiscossoFatture, TotaleDaFattureRT, NonRiscossoDCRaSSN
+			NonRiscossoOmaggio, 
+5)Nuovo tag finale, <CodiceAttivita>
+
+6)Nuovi tag:
+-<Totali>
+<NumeroDocCommerciali>1</NumeroDocCommerciali>
+<PagatoContanti>210.00</PagatoContanti>
+<PagatoElettronico>80.00</PagatoElettronico>
+<ScontoApagare>0.00</ScontoApagare>
+-<Ticket>
+<PagatoTicket>0.00</PagatoTicket>
+<NumeroTicket>1</NumeroTicket>
+</Ticket>
+</Totali>
+
+vedere doc epson rt 20 specs rev 3 di camillo in cui ci sono i comandi che andranno modificati per l'xml 2.0
+Ticket multiuso vanno nella voce ScontoAPagare
+
+
+
+
+
+
+
+5)Curl ufficiale di Francesco
+
+curl -v -H "Content-Type: application/xml" --tlsv1.2 --cacert
+CA_AE_sperimentazione.pem
+https://v-apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/
+--data-binary --verbose --insecure @99IEB000204-20200721T154230-0040-CORRISP.xml --output risposta.xml
+
+curl -v -H "Content-Type: application/xml" --tlsv1.2 --cacert
+CA_AE_sperimentazione.pem \\
+https://v-apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/
+--data-binary --verbose --insecure @99IEB000204-20200721T154230-0040-CORRISP.xml --output risposta.xml
+
+Curl SICURAMENTE CORRETTA (PROVATA E FUNZIONA)
+curl -v --insecure -H "Content-Type: application/xml" --tlsv1.2 --cacert CA_AE_sperimentazione.pem https://v-apid-ivaservizi.agenziaentrate.gov.it/v1/dispositivi/corrispettivi/ --data-binary  @99MEX080487-20200704T110257-0184-CORRISP.xml --output risposta.xml

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit" Method="TestAccontoConsegnaBene" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Acconto" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AccontoConsegnaBene" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AccontoGenerico" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneConsegnato" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ServizioNonRiscosso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="SegueFattura" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Omaggio" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ScontoAPagare" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ArrotondamentoDifetto" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ArrotondamentoEccesso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="Ventilazione" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloPrimoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloSecondoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloTerzoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="UtilizzoBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiuso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiusoUtilizzo" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="BuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="TicketRestaurant" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="NonRiscossoDaSSN" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="LotteriaScontoAPagare" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ResoAccontoServizi" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="ResoAccontoServiziSecondoScenario" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloUtilizzoBuonoMonouso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloNonRiscossoDaSSN" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloDCSegueFattura" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio2" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneConsegnato" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneNonConsegnato" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiuso" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio1" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloAccontoServizio2" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloOmaggio" repeat="1" />
+	<Command
+Class="AppConsolePosTestWithNunit.CustomTests,AppConsolePosTestWithNunit"
+Method="TestScontoAPagare"  repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="VenditaBeniPagamentoNRBeneNonConsegnato" repeat="1" />
+     	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiuso" repeat="1" />
+		<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="AnnulloBuonoMultiusoCeliachia" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.Xml2,FiscalReceipt" 
+Method="PagamentiNegativi" var1="TestAcconto" var2="1000" var3="00" var4="01" repeat="1" />
+</command_list>

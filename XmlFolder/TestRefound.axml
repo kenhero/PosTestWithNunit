@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<command_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Method_list.xsd">
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.WebService,FiscalReceipt" Method="commuteMode"        var1="RT" repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="resetPrinter"         repeat="1" />
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="initFiscalDevice"  var1="FiscalPrinter" repeat="1" />
+
+
+<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="1" var5="Serv  01" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="02" var2="00" var3="02" var4="1" var5="Serv  02" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="1" var5="Serv  03" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="00" var3="00" var4="1" var5="Serv  04" repeat="1" />
+
+
+
+
+
+  	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="PrintRecRefound"   repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.FiscalReceipt,FiscalReceipt" Method="ZReport"         repeat="1" />
+
+<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="01" var2="00" var3="01" var4="0" var5="Bene  01" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="02" var2="00" var3="02" var4="0" var5="Bene  02" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="03" var2="00" var3="03" var4="0" var5="Bene  03" repeat="1" />
+	<Command
+Class="FiscalReceipt.Library.VatManager,FiscalReceipt" 
+Method="setDepParEmbedded" var1="04" var2="00" var3="00" var4="0" var5="Bene  04" repeat="1" />	
+  </command_list>
+
+
