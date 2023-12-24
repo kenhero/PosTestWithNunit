@@ -1,4 +1,5 @@
-# PosTestWithNunit
+# PosTestWithNunit Test Automation Tool for EPSON Fiscal Printer Firmware
+
 Come funziona il software di testing della Stampante Fiscale:
 
 Il progetto Visual Studio "PosTestWithNunit" è composto da 6 progetti,rappresentanti la intera solution e sono:
